@@ -1,20 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-    
-      fetch("http://localhost:3000")
-     .then(response => response.json())
-     .then(data => { film(data) })
-    })
-    var form=  document.getElementById("movieform").submit(
-    function film(e){
-        e.preventDefault()
-var movie = document.querySelector("#movie").val()
+
 /* var result =""
 method:'GET'
 result =`
 img src=${data.poster}
 `
 document.querySelector("#result").innerHTML(result)*/
-const movieform = (films) =>{
+/*const movieform = (films) =>{
 var poster= document.getElementById("poster")
 poster.src = film.poster 
 var title= document.getElementById("title")
@@ -41,5 +32,27 @@ button.addEventListener("click", (e) => {
      let obj = {tickets_sold} //this has to be key:value pair
      updateTicketNum(obj)
   }
-} )
+} )*/
 
+/*document.addEventListener("DOMContentLoaded", () => {
+    
+   fetch("http://localhost:3000"+ id)
+  .then(response => response.json())
+  .then(data => { (data) })
+ })
+ var form=  document.getElementById("movieform").submit(
+ function film(){
+     //e.preventDefault()
+var movie = document.querySelector("#movie").val()
+var poster= document.getElementById("poster")
+poster.src = `${data.poster}`
+var title= document.getElementById("title")
+title.innerHtml=`${data.title}`
+var showtime= document.getElementById("showtime")
+showtime.innerHTML=`${data.showtime}`
+var runtime= document.getElementById("runtime")
+runtime.innerHTML =`${data.runtime}minutes`
+var description= document.getElementById ("description")
+description.innerHTML=`${data.description}`
+
+ })
