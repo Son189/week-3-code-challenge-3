@@ -2,7 +2,7 @@
 ## Flatdango
 Flatdango is an app where you can buy films ticket to the Flatiron Movie Theater
 
-## Requirements
+## Core Delivarables
 1. Give the user the ability to buy tickets and see it decrease
 2. The user to be able to see the showtime,runtime,description and poster of the film
 
@@ -10,20 +10,31 @@ Flatdango is an app where you can buy films ticket to the Flatiron Movie Theater
 This project is made up of five files
 
 ## Installation and Running
-Download the json file to get data for your app.
+- Download the json file to get data for your app.
 
-Run the command npm install -g json-server to get the server connected to your json.
+- Run the command 
 
-Run json-server --watch db.json to see what is happening in json.
+        npm install -g json-server to get the server connected to your json.
 
-Clone the repository onto your laptop by running:   
-     git clone git@github.com:Son189/phase-1-code-challenge-3.git.
+- Run
 
-Change your current directory to the directory you have git cloned by   
-        cd comand and name of the directory.
+         json-server --watch db.json to see what is happening in json.
 
-Open files in your vscode by running:
-        code . in your terminal.
+- Clone the repository onto your laptop by running:
+
+        git clone git@github.com:Son189/phase-1-code-challenge-3.git.
+
+- Change your current directory to the directory you have git cloned by   
+        
+                cd comand and name of the directory.
+
+- Open files in your vscode by running:
+                
+                code . in your terminal.
+
+- to view the app click link below
+
+        https://eclectic-frangipane-e1b789.netlify.app/
 
 ## Author 
 The program was written by; 
